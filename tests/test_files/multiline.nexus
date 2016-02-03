@@ -1,0 +1,12 @@
+#NEXUS
+Begin data;
+Dimensions ntax=2 nchar=30;
+Format datatype=dna symbols="ACTG" missing=? gap=-;
+Matrix
+Species1   atgctagctagctcg
+           atgcta??tag-tag
+Species2   atgttagctag-tgg
+           atgttagctag-tag           
+;
+End;
+
